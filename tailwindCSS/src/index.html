@@ -10,30 +10,30 @@
 <body>
     <header class="text-center my-[100px]">
         <h1 class="text-5xl my-10">Welcome to my Christmas party!</h1>
-        <div class="flex justify-center"><img src="../images/party1.jpeg" alt=""></div>
+        <div class="image flex justify-center"><img src="../images/party1.jpeg" alt=""></div>
         
     </header>
     <article class="text-center">
         <h2 class="text-xmas-red">Christmas Party</h2>
         <section>
             <h3>Party cake list</h3>
-            <ul class="flex">
+            <ul class="grid grid-cols-3">
                 <li>
-                    <img src="../images/santa_cake.jpeg" alt="">
+                    <div class="image rounded-full overflow-hidden"><img src="../images/santa_cake.jpeg" alt=""></div>
                     <dl>
                         <dt>Santa Cake</dt>
                         <dd>Made by santa</dd>
                     </dl>
                 </li>
                 <li>
-                    <img src="../images/strawberry_cake.jpeg" alt="">
+                    <div class="image rounded-full overflow-hidden"><img src="../images/strawberry_cake.jpeg" alt=""></div>
                     <dl>
                         <dt>Strawberry Cake</dt>
                         <dd>We use delicious strawberry</dd>
                     </dl>
                 </li>
                 <li>
-                    <img src="../images/choco_cake.jpeg" alt="">
+                    <div class="rounded-3xl"><img src="../images/choco_cake.jpeg" alt=""></div>
                     <dl>
                         <dt>Choco Cake</dt>
                         <dd>Only use chocolate</dd>
@@ -51,6 +51,18 @@
                 <li>Christmas in New York</li>
             </ul>
         </section>
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/building.jpg" alt="Modern building architecture">
+              </div>
+              <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accomodation for your team</a>
+                <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+              </div>
+            </div>
+          </div>
     </article>
     <footer>
         copyright m-ur-phy and made with tailwindCSS 💞
