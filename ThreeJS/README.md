@@ -62,3 +62,7 @@
 
 ### 마우스컨트롤?
 - Three.js 내의 OrbitControl 을 사용하면 마우스로 해당 오브젝트를 컨트롤 할 수 있다.
+
+## 응용작
+- 귀여운 골든 햄스터로 3D 를 구현해봤어요!
+![귀여워](https://user-images.githubusercontent.com/87026989/211184800-84a2c44d-11aa-4b8a-9b48-eadfa31615e0.gif)
